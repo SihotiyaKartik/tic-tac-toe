@@ -1,0 +1,94 @@
+.Main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn{
+  background: #131313;
+  border: 2px solid white;
+  float:left;
+  margin-top:-2px;
+  margin-left:-2px;
+  height: 134px;
+  padding: 0;
+  text-align: center;
+  width: 134px;
+
+}
+#c0{
+  border-color:#131313 white white #131313;
+}
+#c1{
+  border-color:#131313 white;
+  
+}
+#c2{
+  border-color:#131313 #131313 white white;
+}
+#c3{
+  border-color:white white white #131313;
+}
+#c4{
+  border-color:white;
+}
+#c5{
+  border-color:white #131313 white white;
+}
+#c6{
+  border-color:white white #131313 #131313;
+}
+#c7{
+  border-color:white white #131313 white;
+}
+#c8{
+  border-color:white #131313 #131313 white;
+}
+
+.btn:focus{
+  outline: none;
+}
+.text{
+  color: white;
+  font-size: 1.5rem;
+}
+.txt{
+  font-family: 'Azeret Mono', monospace;
+  color:#fff;
+  font-size:3rem;
+  font-weight: 700;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+
+}
+.Main h1{
+  color:white;
+  position:absolute;
+  top:5%;
+  font-size: 4rem;
+  font-style: italic;
+}
+.board{
+  margin-top: 50px;
+}
+.reset{
+  height:30px;
+  width:80px;
+  margin-top:30px;
+  background-color: rgba(255,255,255,0.8);
+  color:black;
+  font-size:20px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+}
+.T:hover{
+color:#787878;
+transition: width .5s ease-in-out;
+overflow: hidden;
+}
+@media only screen and (max-width:556px) {
+  .btn{
+    height:90px;
+    width:90px;
+  }
+}
